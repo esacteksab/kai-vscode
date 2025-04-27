@@ -7,6 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.2]
 
 - Fixed debug tool bar background, foreground and border colors
+- Made the terminal background the same color as the editor background
 
 ## [Unreleased]
 
