@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+mise.toml
+.mise.local.toml
+.editorconfig
+.markdownlint-cli2.yaml
+pnpm-lock.yaml
+node_modules/
+package-lock.json
