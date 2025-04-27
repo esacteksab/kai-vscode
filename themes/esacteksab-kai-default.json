@@ -119,7 +119,7 @@
     "foreground": "#e2e2e3",
     "git.blame.editorDecorationForeground": "#bdbdbd",
     "gitDecoration.addedResourceForeground": "#9dd27480",
-    "gitDecoration.conflictingResourceForeground": "#ba9cf390",
+    "gitDecoration.conflictingResourceForeground": "#f7ac7790",
     "gitDecoration.deletedResourceForeground": "#ffa3bc",
     "gitDecoration.ignoredResourceForeground": "#848B9A",
     "gitDecoration.modifiedResourceForeground": "#eacb64",
