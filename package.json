@@ -2,7 +2,7 @@
     "name": "esacteksab-kai",
     "displayName": "esacteksab kai",
     "description": "Slightly modified high contrast theme based on Sonokai from sainnhe",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "esacteksab",
     "author": "esacteksab (https://github.com/esacteksab)",
     "homepage": "https://github.com/esacteksab/kai-vscode",
@@ -21,6 +21,7 @@
         "AA",
         "WCAG"
     ],
+    "icon": "./assets/ppp-sized.png",
     "galleryBanner": {
         "color": "#2a2f38",
         "theme": "dark"
