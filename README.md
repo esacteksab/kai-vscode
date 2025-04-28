@@ -10,6 +10,9 @@ A high-contrast, accessibility-focused VS Code theme inspired by [Sonokai](https
 
 ![Atlantis](./assets/kai-vscode-atlantis.PNG "Atlantis")
 
+## Vivid
+![Vivid](./assets/kai-vscode-vivid.PNG "Vivid")
+
 ## Features
 
 - Meets or exceeds AAA WCAG in most cases
