@@ -12,7 +12,7 @@ importers:
         specifier: ^7.52.5
         version: 7.52.5
       '@rushstack/heft':
-        specifier: 0.71.2
+        specifier: ^0.71.2
         version: 0.71.2
       '@vscode/vsce':
         specifier: ^3.3.2

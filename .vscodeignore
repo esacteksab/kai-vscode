@@ -9,6 +9,6 @@ mise.toml
 pnpm-lock.yaml
 node_modules/
 package-lock.json
-.github
+.github/**
 .prettierrc
 .prettierignore
