@@ -23,7 +23,7 @@ A high-contrast, accessibility-focused VS Code theme inspired by [Sonokai](https
 ## Installation
 
 ```bash
-code --install-extension esacteksab-kai-0.0.2.vsix
+code --install-extension esacteksab-kai-0.0.6.vsix
 ```
 
 ## Usage
