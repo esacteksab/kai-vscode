@@ -22,6 +22,8 @@ A high-contrast, accessibility-focused VS Code theme inspired by [Sonokai](https
 
 ## Installation
 
+Clone the repo, then install with 
+
 ```bash
 code --install-extension esacteksab-kai-0.0.6.vsix
 ```
@@ -30,7 +32,7 @@ code --install-extension esacteksab-kai-0.0.6.vsix
 
 1. Click the gear button in the lower left corner.
 2. Click `Color Theme`.
-3. Select Sonokai in the list.
+3. Select esacteksab kai [atlantis|vivid] in the list.
 
 
 ## License
