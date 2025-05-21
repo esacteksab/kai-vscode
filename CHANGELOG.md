@@ -1,6 +1,7 @@
 # Change Log
 
 All notable changes to the "esacteksab-kai" extension will be documented in this file.
+
 ## [0.0.5]
 
 - vivid theme: more vibrant colors
