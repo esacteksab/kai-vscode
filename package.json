@@ -2,7 +2,7 @@
     "name": "esacteksab-kai",
     "displayName": "esacteksab kai",
     "description": "Slightly modified high contrast theme based on Sonokai from sainnhe",
-    "version": "0.0.6",
+    "version": "0.0.5",
     "publisher": "esacteksab",
     "author": "esacteksab (https://github.com/esacteksab)",
     "homepage": "https://github.com/esacteksab/kai-vscode",
@@ -52,12 +52,12 @@
         ]
     },
     "dependencies": {
-        "@microsoft/api-extractor": "^7.52.7",
-        "@rushstack/heft": "^0.73.5",
-        "@vscode/vsce": "^3.3.2",
+        "@microsoft/api-extractor": "^7.52.8",
+        "@rushstack/heft": "^0.73.6",
+        "@vscode/vsce": "^3.4.1",
         "prettier": "^3.5.3",
-        "prettier-plugin-pkg": "^0.19.0",
-        "prettier-plugin-sh": "^0.17.2",
-        "prettier-plugin-toml": "^2.0.4"
+        "prettier-plugin-pkg": "^0.19.1",
+        "prettier-plugin-sh": "^0.17.4",
+        "prettier-plugin-toml": "^2.0.5"
     }
 }

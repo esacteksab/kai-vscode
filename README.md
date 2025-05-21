@@ -11,6 +11,7 @@ A high-contrast, accessibility-focused VS Code theme inspired by [Sonokai](https
 ![Atlantis](./assets/kai-vscode-atlantis.PNG "Atlantis")
 
 ## Vivid
+
 ![Vivid](./assets/kai-vscode-vivid.PNG "Vivid")
 
 ## Features
@@ -18,11 +19,10 @@ A high-contrast, accessibility-focused VS Code theme inspired by [Sonokai](https
 - Meets or exceeds AAA WCAG in most cases
 - A few instances where AA-rated exists (inlay Hints in Go and Git ignored files in the side bar)
 - Support for Semantic Highlighting
-- Rich support for common file types.
 
 ## Installation
 
-Clone the repo, then install with 
+Clone the repo, then install with
 
 ```bash
 code --install-extension esacteksab-kai-0.0.6.vsix
@@ -31,9 +31,8 @@ code --install-extension esacteksab-kai-0.0.6.vsix
 ## Usage
 
 1. Click the gear button in the lower left corner.
-2. Click `Color Theme`.
-3. Select esacteksab kai [atlantis|vivid] in the list.
-
+1. Click `Color Theme`.
+1. Select esacteksab kai [atlantis|vivid] in the list.
 
 ## License
 
