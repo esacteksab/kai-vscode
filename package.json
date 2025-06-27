@@ -53,11 +53,11 @@
     },
     "dependencies": {
         "@microsoft/api-extractor": "^7.52.8",
-        "@rushstack/heft": "^0.73.6",
+        "@rushstack/heft": "^0.74.0",
         "@vscode/vsce": "^3.4.1",
         "prettier": "^3.5.3",
         "prettier-plugin-pkg": "^0.21.1",
-        "prettier-plugin-sh": "^0.17.4",
+        "prettier-plugin-sh": "^0.18.0",
         "prettier-plugin-toml": "^2.0.5"
     }
 }
