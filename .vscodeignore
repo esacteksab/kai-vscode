@@ -12,3 +12,7 @@ package-lock.json
 .github/**
 .prettierrc
 .prettierignore
+.devcontainer/**
+.venv/**
+scripts/**
+requirements.txt

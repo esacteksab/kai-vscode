@@ -12,6 +12,8 @@ updates:
       day: "friday"
       time: "17:00"
       timezone: "America/Chicago"
+    cooldown:
+      default-days: 7
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -20,3 +22,5 @@ updates:
       day: "friday"
       time: "18:00"
       timezone: "America/Chicago"
+    cooldown:
+      default-days: 7

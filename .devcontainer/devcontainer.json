@@ -1,0 +1,30 @@
+{
+  "name": "kai-vscode (dev-container)",
+  "image": "esacteksab/dev-container:latest",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "source=${localEnv:HOME}/.gitconfig,target=/root/.gitconfig,type=bind,readonly",
+    "source=kai-vscode-gh-config,target=/root/.config/gh,type=volume",
+    "source=kai-vscode-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
+    "source=kai-vscode-zshhistory,target=/commandhistory,type=volume"
+  ],
+  "postCreateCommand": "python3 -m venv --clear .venv && .venv/bin/python -m pip install -r requirements.txt && .venv/bin/python -m pre_commit install --install-hooks && gh extension install esacteksab/gh-actlock || true && gh extension install seachicken/gh-poi || true",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python"
+      },
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "timonwong.shellcheck"
+      ]
+    }
+  }
+}

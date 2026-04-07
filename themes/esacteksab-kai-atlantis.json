@@ -476,7 +476,7 @@
     {
       "scope": "constant.numeric.line-number.match.find-in-files",
       "settings": {
-        "name": "Search result matched line numbes",
+        "name": "Search result matched line numbers",
         "foreground": "#eacb64"
       }
     },
