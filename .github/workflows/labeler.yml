@@ -1,0 +1,14 @@
+name: Labeler
+
+on:
+  pull_request:
+    types:
+      - opened
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  label-pr:
+    uses: esacteksab/.github/.github/workflows/labeler.yml@2ee248cf7575840757c1d43548ad6ef4d1d62ada  # v0.80.6
