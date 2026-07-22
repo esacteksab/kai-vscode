@@ -6,10 +6,10 @@
   "containerUser": "devcontainer",
   "mounts": [
     "source=${localEnv:HOME}/.gitconfig,target=/home/devcontainer/.gitconfig,type=bind,readonly",
-    "source=kai-vscode-gh-config,target=/home/devcontainer/.config/gh,type=volume",
+    "source=${localEnv:HOME}/.config/gh,target=/home/devcontainer/.config/gh,type=bind",
     "source=kai-vscode-zshhistory,target=/commandhistory,type=volume"
   ],
-  "postCreateCommand": "python3 -m venv --clear .venv && .venv/bin/python -m pip install -r requirements.txt && .venv/bin/python -m pre_commit install --install-hooks && gh extension install esacteksab/gh-actlock || true && gh extension install seachicken/gh-poi || true",
+  "postCreateCommand": "if [ -d .venv ] && [ ! -w .venv/pyvenv.cfg ]; then mv .venv .venv.unwritable-$(date +%Y%m%d-%H%M%S); fi && python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt && .venv/bin/python -m pre_commit install --install-hooks && (gh extension install esacteksab/gh-actlock || true) && (gh extension install seachicken/gh-poi || true)",
   "customizations": {
     "vscode": {
       "settings": {
