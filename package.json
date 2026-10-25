@@ -2,7 +2,7 @@
   "name": "esacteksab-kai",
   "displayName": "esacteksab kai",
   "description": "Slightly modified high contrast theme based on Sonokai from sainnhe",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "esacteksab",
   "author": "esacteksab (https://github.com/esacteksab)",
   "homepage": "https://github.com/esacteksab/kai-vscode",
@@ -67,7 +67,7 @@
     "prettier": "^3.9.10",
     "prettier-plugin-pkg": "^0.22.0"
   },
-   "overrides": {
+  "overrides": {
     "@azure/msal-node": "^7.1.0"
   }
 }
