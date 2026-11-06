@@ -63,7 +63,7 @@
     "validate:themes": "node scripts/validate-themes.js"
   },
   "devDependencies": {
-    "@vscode/vsce": "^4.0.0",
+    "@vscode/vsce": "^4.1.0",
     "prettier": "^3.9.10",
     "prettier-plugin-pkg": "^0.22.0"
   },
